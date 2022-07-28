@@ -1,8 +1,8 @@
 :root {
     --main-font: 'Roboto', sans-serif;
 
-    /* --primary: 343, 100%, 55%;  */
-    --primary: 180, 100%, 25%; 
+    --primary: 343, 100%, 55%; 
+    /* --primary: 180, 100%, 25%;  */
     --dark: 225, 6%, 13%; 
     --light: 0, 0%, 100%;
 
