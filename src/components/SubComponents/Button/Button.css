@@ -1,0 +1,44 @@
+.btn--primary {
+    background-color: hsl(var(--primary));
+    border: 2px solid hsl(var(--primary));
+}
+
+.btn--primary:hover {
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: hsl(var(--primary));
+}
+
+.btn--dark {
+    background-color: hsl(var(--dark));
+    border: 2px solid hsl(var(--dark));
+}
+
+.btn--dark:hover {
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: hsl(var(--dark));
+}
+
+.btn--light {
+    color: hsl(var(--primary));
+    background-color: hsl(var(--light));
+    border: 2px solid hsl(var(--light));
+    font-weight: 600;
+}
+
+.btn--light:hover {
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: hsl(var(--light));
+}
+
+.btn--md {
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.btn--lg {
+    padding: 12px 40px;
+    font-size: 20px;
+}

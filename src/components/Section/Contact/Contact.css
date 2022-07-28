@@ -1,0 +1,229 @@
+#contact--section {
+    background-color: hsl(var(--light));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: hsl(var(--light));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact--row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 70px 0;
+    width: 100%;
+}
+
+.contact--heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact--heading h1 {
+    color: hsl(var(--primary));
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact--content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact--alert {
+    width: auto;
+}
+
+.alert {
+    background-color: hsl(var(--light));
+    color: var(--dark--gray);
+    width: 500px;
+    border-radius: 18px;
+    padding: 50px 40px;
+    font-size: 24px;
+    z-index: var(--z-modal);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert img {
+    width: 100px;
+}
+
+.alert .alert--message {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cover--hidden {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 900;
+    background-color: hsla(var(--dark), 100%);
+    opacity: .8;
+}
+
+.contact--form {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact--form--wrapper {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact--form--wrapper h1 {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    color: hsl(var(--dark));
+}
+
+.contact--form--wrapper p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: hsl(var(--dark));
+}
+
+.contact--input--name, .contact--input--email, .contact--input--message {
+    padding: 10px;
+}
+
+.contact--input--name {
+    width: 40%;
+}
+
+.contact--input--email {
+    width: 60%;
+}
+
+.contact--input--message {
+    width: 100%;
+}
+
+.contact--input--name label, .contact--input--email label, .contact--input--message label {
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(var(--dark));
+}
+
+.contact--input--name input, .contact--input--email input, .contact--input--message textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+}
+
+.contact--input--name p, .contact--input--email p, .contact--input--message p {
+    color: hsl(var(--primary));
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.contact--btn {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (max-width: 1150px) {
+    .contact--form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact--form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .contact--form {
+        width: 90%;
+    }
+    .contact--btn {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .alert {
+        width: 350px;
+        font-size: 20px;
+    }
+    .contact--form--wrapper {
+        padding: 10px 0;
+    }
+    .alert img {
+        width: 80px;
+    }
+    .contact--form {
+        width: 100%; 
+    }
+    .contact--input--name, .contact--input--email, .contact--input--message {
+        width: 100%;
+        padding: 12px 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .alert {
+        width: 300px;
+    }
+}
