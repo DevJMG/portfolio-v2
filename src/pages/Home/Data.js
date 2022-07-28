@@ -34,7 +34,7 @@ export const hero = {
     hero_cta_color: 'btn--light',
     hero_cta_text: 'LEARN MORE',
     hero_cta_type: 'submit',
-    hero_cta_icon: <FaArrowDown size={15} />,
+    hero_cta_icon: <FaArrowDown size={19} />,
     hero_icon_gitHub: 'https://github.com/DevJMG',
     hero_icon_linkedIn: ''
 }

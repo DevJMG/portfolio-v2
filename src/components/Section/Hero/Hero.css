@@ -1,5 +1,6 @@
 .hero {
-    background: hsla(var(--dark), 100%);
+    /* background: hsla(var(--dark), 100%); */
+    background: hsl(var(--dark));
     height: 100vh;
     width: 100%;
     display: flex;
@@ -148,7 +149,6 @@
         border-bottom-left-radius: 50px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
-        padding: 8px 20px;
         font-size: 18px;
     }
 

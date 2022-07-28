@@ -21,16 +21,16 @@
 }
 
 .btn--light {
-    color: hsl(var(--primary));
-    background-color: hsl(var(--light));
+    color: hsl(var(--light));
+    background-color: transparent;
     border: 2px solid hsl(var(--light));
     font-weight: 600;
 }
 
 .btn--light:hover {
     transition: all 0.3s ease-out;
-    background-color: transparent;
-    color: hsl(var(--light));
+    background-color: hsl(var(--light));
+    color: hsl(var(--dark));
 }
 
 .btn--md {

@@ -68,7 +68,7 @@
 
 .alert {
     background-color: hsl(var(--light));
-    color: var(--dark--gray);
+    color: hsl(var(--dark));
     width: 500px;
     border-radius: 18px;
     padding: 50px 40px;

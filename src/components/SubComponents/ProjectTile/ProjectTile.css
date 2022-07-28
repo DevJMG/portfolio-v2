@@ -23,6 +23,7 @@
     font-size: 36px;
     font-weight: 900;
     text-transform: uppercase;
+    color: hsl(var(--dark));
 }
 
 .project--tile--type {

@@ -12,9 +12,12 @@
     transition: all 0.3s ease;
 }
 
+.nav .active {
+    background-color: transparent;
+}
+
 .active {
-    background-color: hsla(var(--dark), 97.5%);
-    backdrop-filter: blur(4px);
+    background-color: hsl(var(--gray3));
 }
 
 .navbar--container {
@@ -54,19 +57,18 @@
     margin-right: 5px;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
-    transition: all .5s ease-out;
 }
 
 .nav--item:hover {
-    background-color: var(--gray3);
+    background-color: hsla(var(--gray2), 30%);
     border-top: 4px solid transparent;
     border-bottom: 4px solid hsl(var(--primary));
-    transition: all .5s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .nav--item .active {
     height: 64px;
-    background-color: var(--gray3);
+    background-color: hsla(var(--gray2), 30%);
     margin-top: -4px;
     border-top: 4px solid transparent;
     border-bottom: 4px solid hsl(var(--primary));
@@ -126,7 +128,7 @@
         top: 64px;
         opacity: 1;
         transition: all 0.3s ease;
-        background: hsla(var(--dark), 100%);
+        background-color: hsl(var(--gray3));
         backdrop-filter: blur(4px);
         padding: 1rem 28px;
     }
@@ -142,13 +144,15 @@
         border-bottom-color: transparent;
         transition: none;
         background-color: transparent;
+        transition: all 0.3s ease-out;
     }
 
     .nav--item .active {
         height: auto;
-        background-color: var(--gray2);
+        background-color: hsla(var(--gray2), 100%);
         margin-top: 0;
         border: 0;
+        transition: all 0.3s ease-out;
     }
     .nav--link {
         text-align: center;
@@ -156,11 +160,12 @@
         width: 100%;
         display: table;
         border-radius: 50px;
-        background-color: var(--gray3);
+        background-color: hsla(var(--gray2), 30%);
+        transition: all 0.3s ease-out;
     }
 
     .nav--link:hover {
-        background-color: var(--gray2);
+        background-color: hsla(var(--gray2), 100%);
     }
 
     .nav--item--btn {

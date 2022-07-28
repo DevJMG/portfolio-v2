@@ -1,14 +1,15 @@
 :root {
     --main-font: 'Roboto', sans-serif;
 
+    --hue: 225;
+    /* --primary: 198, 93%, 60%;  */
     --primary: 343, 100%, 55%; 
-    /* --primary: 180, 100%, 25%;  */
-    --dark: 225, 6%, 13%; 
+    --dark: var(--hue), 11%, 12%; 
     --light: 0, 0%, 100%;
 
-    --gray1: #727375;
-    --gray2: #49494b;
-    --gray3: #2b2c2f; 
+    --gray1: 225, 11%, 70%;
+    --gray2: 225, 11%, 30%;
+    --gray3: 225, 11%, 15%; 
 
     --z-fixed: 100;
     --z-modal: 1000;
@@ -86,11 +87,11 @@ input, textarea {
     font-weight: bold;
     background-color: var(--light);
     border-radius: 8px;
-    border: 2px solid var(--gray1);
+    border: 2px solid hsl(var(--gray1));
 }
 
 input:focus, textarea:focus {
-    border: 2px solid var(--gray2);
+    border: 2px solid hsl(var(--gray2));
 }
 
 @media screen and (max-width: 768px) {
