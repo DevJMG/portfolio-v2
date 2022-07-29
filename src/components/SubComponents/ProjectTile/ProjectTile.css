@@ -83,7 +83,7 @@
 .project--tile--image--wrapper img {
     transition: all .5s ease-out;
     width: 100%;
-    border-radius: 18px;
+    border-radius: 8px;
     filter: brightness(0.9);
 }
 
