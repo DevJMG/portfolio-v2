@@ -107,6 +107,22 @@
     outline: none;
 }
 
+.scroll--up {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: hsl(var(--gray3));
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.scroll--up svg {
+    color: hsl(var(--light));
+}
+
 @media screen and (max-width: 768px) {
     .mobile--icon {
         color: hsl(var(--light));
